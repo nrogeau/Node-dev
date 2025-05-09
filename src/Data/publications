@@ -1,0 +1,186 @@
+// src/data/publications.js
+const publications = [
+    {
+        title: "[Ongoing Call for Papers] Robotics and Construction Indeterminacy",
+        year: 2025,
+        authors: "Edited by Nicolas Rogeau",
+        source: "Journal of Construction Robotics",
+        link: "https://link.springer.com/collections/fijebdjbhh",
+        keywords: ["Robotic Assembly", "Architectural Theory"],
+        type: "Editor"
+    },
+    {
+        title: "GPU-Accelerated Collision-Free Path Planning for Multi-Axis Robots in Construction Automation",
+        year: 2025,
+        authors: "Ilija Vukorep, Rolf Starke, Arastoo Khajehee, Nicolas Rogeau, Yasushi Ikeda",
+        source: "In Proceedings of the 42nd International Symposium on Automation and Robotics in Construction (ISARC), Montreal",
+        link: "https://www.iaarc.org/publications/search.php",
+        keywords: ["Robotic Assembly"],
+        type: "Conference"
+    },
+    {
+        title: "AR-Driven Reconfiguration of a Triangular Wood Shell: Designing From a Limited Stock of Elements",
+        year: 2025,
+        authors: "Lennart Hamm, Nicolas Rogeau, Arastoo Khajehee, Iris Mach, Oliver Englhardt, Kaori Fujita, Yasushi Ikeda",
+        source: "In Proceedings of the 30th CAADRIA Conference, The University of Tokyo, Tokyo",
+        link: "https://papers.cumincad.org/cgi-bin/works/paper/caadria2025_555",
+        keywords: ["Computational Design", "Augmented Reality"],
+        type: "Conference"
+    },
+    {
+        title: "Collaborative Exploration of Complex Design Spaces: Integrating Constraints From Two Remote Robotic Setups",
+        year: 2025,
+        authors: "Arastoo Khajehee, Nicolas Rogeau, Mohamed Abdelaziz, Anatolii Kotov, Rolf Starke, Ilija Vukorep, Yasushi Ikeda",
+        source: "In Proceedings of the 30th CAADRIA Conference, The University of Tokyo, Tokyo",
+        link: "https://papers.cumincad.org/cgi-bin/works/paper/caadria2025_282",
+        keywords: ["Computational Design", "Structural Performance", "Human-Robot Collaboration", "Robotic Assembly"],
+        type: "Conference"
+    },
+    {
+        title: "Architectural Informatics - Proceedings of the 30th CAADRIA Conference",
+        year: 2025,
+        authors: "Edited by Dagmar Reinhardt, Nicolas Rogeau, Christiane M. Herr, Anastasia Globa, Jielin Chen, Taro Narahara",
+        source: "The Association for Computer-Aided Architectural Design Research in Asia",
+        link: "https://caadria.org/downloads/",
+        keywords: ["Computational Design", "Architectural Theory", "Architectural Pedagogy"],
+        type: "Editor"
+    },
+    {
+        title: "Designing With Care: A Pedagogical Approach to Architecture Through Maintenance",
+        year: 2025,
+        authors: "Camille Fauvel, Nicolas Rogeau, Nao Kono, Tiphaine Abenia, Bryan Ortega-Welch, Sonia Curnier",
+        source: "In Proceedings of the International Conference on Structures and Architecture, University of Antwerp, Antwerp",
+        link: "https://www.icsa2025.com/",
+        keywords: ["Architectural Pedagogy", "Learning by Making"],
+        type: "Conference"
+    },
+    {
+        title: "Precision in Japanese Woodcraft: Embracing Indeterminacy or Conforming to Digital Exactitude?",
+        year: 2025,
+        authors: "Nicolas Rogeau",
+        source: "CLARA, Special Issue on the Ethics of Detailing, Université Libre de Bruxelles, Brussels",
+        link: "https://clararevue.ulb.be/CLARA",
+        keywords: ["Wooden Joints", "Japanese Architecture", "Architectural Theory"],
+        type: "Journal"
+    },
+    {
+        title: "Robotic Assembly of Integrally-Attached Timber Plate Structures",
+        year: 2024,
+        authors: "Nicolas Rogeau",
+        source: "In Transcalar Prospects in Climate Crisis: architectural research in re/action. Lars Müller Publishers, Zurich",
+        link: "https://doi.org/10.1177/14780771241286605",
+        keywords: ["Computational Design","Wooden Joints", "Timber Plate Structures", "Robotic Assembly", "Digital Fabrication", "Architectural Theory"],
+        type: "Outreach"
+    },
+    {
+        title: "Computational Design and Digital Fabrication of Curved Window Frames: Recreating Gaudí’s Windows in the Digital Age",
+        year: 2024,
+        authors: "Ayano Kikuchi, Nicolas Rogeau, Eri Sumitomo, Hidetoshi Tsuda, Kosei Ishida, Takeshi Yamamura, Yasushi Ikeda",
+        source: "In Proceedings of the 28th International Conference of the Ibero-American Society of Digital Graphics, UIC, Barcelona",
+        link: "https://sigradi.org/sigradi2024/",
+        keywords: ["Computational Design","Digital Fabrication", "Architectural Theory"],
+        type: "Conference"
+    },
+    {
+        title: "Collaborative Timber Joint Assembly: Augmented Reality for Multi-Level Human-Robot Interaction",
+        year: 2024,
+        authors: "Nicolas Rogeau, Aryan Rezaei Rad",
+        source: "International Journal of Architectural Computing, Vol. 22:4, Special Issue: Ecological Levers",
+        link: "https://doi.org/10.1177/14780771241286605",
+        keywords: ["Wooden Joints", "Robotic Assembly", "Human-Robot Collaboration", "Augmented Reality"],
+        type: "Journal"
+    },
+    {
+        title: "Interactive Design of Structural Membranes Through Mixed Reality",
+        year: 2024,
+        authors: "Michihiro Abe, Nicolas Rogeau, Yasushi Ikeda",
+        source: "In Proceedings of the IASS Annual Symposia, ETHZ, Zurich",
+        link: "https://app.iass2024.org/files/IASS_2024_Paper_388.pdf",
+        keywords: ["Computational Design", "Augmented Reality"],
+        type: "Conference"
+    },
+    {
+        title: "Robotic Assembly of Integrally-Attached Timber Plate Structures: From Computational Design to Automated Construction",
+        year: 2023,
+        authors: "Nicolas Rogeau",
+        source: "Ecole Polytechnique Fédérale de Lausanne",
+        link: "https://infoscience.epfl.ch/handle/20.500.14299/195320",
+        keywords: ["Computational Design", "Wooden Joints", "Timber Plate Structures", "Robotic Assembly", "Digital Fabrication", "Computer Vision"],
+        type: "Thesis"
+    },
+    {
+        title: "Design Considerations for Robotically Assembled Through-Tenon Timber Joints",
+        year: 2022,
+        authors: "Nicolas Rogeau, Julien Gamerro, Pierre Latteur, Yves Weinand",
+        source: "Construction Robotics, Volume 6",
+        link: "https://doi.org/10.1007/s41693-022-00080-5",
+        keywords: ["Wooden Joints", "Timber Plate Structures", "Robotic Assembly", "Digital Fabrication"],
+        type: "Journal"
+    },
+    {
+        title: "A Collaborative Workflow to Automate the Design, Analysis, and Construction of Integrally-Attached Timber Plate Structures",
+        year: 2022,
+        authors: "Nicolas Rogeau, Aryan Rezaei Rad, Petras Vestartas, Pierre Latteur, Yves Weinand",
+        source: "In Proceedings of the 27th CAADRIA Conference, University Of New South Wales, Sydney",
+        link: "https://doi.org/10.52842/conf.caadria.2022.2.151",
+        keywords: ["Computational Design", "Timber Plate Structures", "Wooden Joints", "Robotic Assembly", "Digital Fabrication", "Structural Performance"],
+        type: "Conference"
+    },
+    {
+        title: "No Screws Loose",
+        year: 2021,
+        authors: "Interview by Yvonne Vahlensieck",
+        source: "Horizons, The Swiss Research Magazine",
+        link: "https://www.horizons-mag.ch/2021/12/02/no-screws-loose/",
+        keywords: ["Computational Design", "Wooden Joints", "Timber Plate Structures", "Robotic Assembly", "Digital Fabrication"],
+        type: "Outreach"
+    },
+    {
+        title: "An Integrated Design Tool for Timber Plate Structures to Generate Joints Geometry, Fabrication Toolpath, and Robot Trajectories",
+        year: 2021,
+        authors: "Nicolas Rogeau, Pierre Latteur, Yves Weinand",
+        source: "Automation in Construction, 130",
+        link: "https://doi.org/10.1016/j.autcon.2021.103875",
+        keywords: ["Computational Design", "Wooden Joints", "Timber Plate Structures", "Robotic Assembly", "Digital Fabrication"],
+        type: "Journal"
+    },
+    {
+        title: "A Framework to Automate the Design of Digitally-Fabricated Timber Plate Structures",
+        year: 2021,
+        authors: "Aryan Rezaei Rad, Henry Burton, Nicolas Rogeau, Petras Vestartas, Yves Weinand",
+        source: "Computers & Structures, Volume 244",
+        link: "https://doi.org/10.1016/j.compstruc.2020.106456",
+        keywords: ["Computational Design", "Digital Fabrication", "Timber Plate Structures", "Structural Performance"],
+        type: "Journal"
+    },
+    {
+        title: "Robotic Insertion of Timber Joints using Visual Detection of Fiducial Markers",
+        year: 2020,
+        authors: "Nicolas Rogeau, Victor Tiberghien, Pierre Latteur, Yves Weinand",
+        source: "In Proceedings of the 37th International Symposium on Automation and Robotics in Construction, Kitakyushu, Japan",
+        link: "https://doi.org/10.1007/978-3-030-29829-6_46",
+        keywords: ["Wooden Joints", "Robotic Assembly", "Computer Vision"],
+        type: "Conference"
+    },
+    {
+        title: "Modelling Workflow for Segmented Timber Shells Using Wood-Wood Connections",
+        year: 2019,
+        authors: "Petras Vestartas, Nicolas Rogeau, Julien Gamerro, Yves Weinand",
+        source: "In Proceedings of the Design Modelling Symposium, Berlin",
+        link: "https://doi.org/10.1007/978-3-030-29829-6_46",
+        keywords: ["Computational Design", "Wooden Joints", "Digital Fabrication"],
+        type: "Conference"
+    },
+    {
+        title: "Parametric Design of Drone-Compatible Architectural Timber Structures",
+        year: 2018,
+        authors: "Sébastien Goessens, Nicolas Rogeau, Gaëlle De Beusscher, Caitlyn Mueller, Pierre Latteur",
+        source: "In Proceedings of the IASS Annual Symposia, MIT, Boston",
+        link: "https://www.ingentaconnect.com/content/iass/piass/2018/00002018/00000009/art00016",
+        keywords: ["Computational Design", "Wooden Joints", "Drone Assembly"],
+        type: "Conference"
+    }
+  
+];
+
+export default publications;

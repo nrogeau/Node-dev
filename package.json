@@ -10,8 +10,11 @@
   "homepage": "https://nrogeau.github.io/Node",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^5.0.0",
-    "vite": "^4.5.0"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5",
+    "vite": "^6.3.5"
   },
   "dependencies": {
     "react": "^18.0.0",
