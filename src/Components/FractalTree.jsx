@@ -38,27 +38,27 @@ export default function FractalTreeViewer() {
 
   const controlsRef = useRef();
 
-useEffect(() => {
-  const handleKeyDown = (e) => {
-    const keys = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'];
-    if (keys.includes(e.key)) {
-      e.preventDefault(); // ⛔️ Prevent page scroll
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      const keys = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'];
+      if (keys.includes(e.key)) {
+        e.preventDefault(); // ⛔️ Prevent page scroll
 
-      if (e.key === 'ArrowLeft') {
-        setAzimuth((prev) => prev - 0.1);
-      } else if (e.key === 'ArrowRight') {
-        setAzimuth((prev) => prev + 0.1);
-      } else if (e.key === 'ArrowUp') {
-        setPolar((prev) => Math.max(0.1, prev - 0.1));
-      } else if (e.key === 'ArrowDown') {
-        setPolar((prev) => Math.min(Math.PI - 0.1, prev + 0.1));
+        if (e.key === 'ArrowLeft') {
+          setAzimuth((prev) => prev - 0.1);
+        } else if (e.key === 'ArrowRight') {
+          setAzimuth((prev) => prev + 0.1);
+        } else if (e.key === 'ArrowUp') {
+          setPolar((prev) => Math.max(0.1, prev - 0.1));
+        } else if (e.key === 'ArrowDown') {
+          setPolar((prev) => Math.min(Math.PI - 0.1, prev + 0.1));
+        }
       }
-    }
-  };
+    };
 
-  window.addEventListener('keydown', handleKeyDown, { passive: false }); // passive: false required for preventDefault()
-  return () => window.removeEventListener('keydown', handleKeyDown);
-}, []);
+    window.addEventListener('keydown', handleKeyDown, { passive: false }); // passive: false required for preventDefault()
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   useEffect(() => {
     if (controlsRef.current) {
