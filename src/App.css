@@ -1,6 +1,12 @@
+nav {
+  text-align: center; /* Center the content inside nav */
+  margin: 20px 0;     /* Optional: adds space above and below */
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: inline-block; /* Make the list act like inline content */
 }
 
 nav ul li {
@@ -64,4 +70,11 @@ body {
 .justified {
   text-align: justify;
   margin-bottom: 1rem;
+}
+
+.rounded-container {
+  background-color: #f1f1f1; /* Light gray background */
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem 0;
 }
